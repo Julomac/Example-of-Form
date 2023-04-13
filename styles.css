@@ -1,0 +1,87 @@
+body{
+    background-image: url(images/backgroundimage.jpg);
+    color: black;
+    font-family:  tahoma, sans-serif;
+    font-size: 1.3em;
+    width: 100%vw;
+    
+  }
+  
+  h1, p{
+    text-align: center;
+    
+    
+    
+  }
+  h1{
+    margin:5% 0 0 0;
+    font-family:  Tahoma, sans-serif;
+    
+    
+  }
+  p{
+    margin: 3% 0 5% 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.1em
+  }
+  
+  form{
+    width: 60wv;
+    max-width:500px;
+    min-width: 200px;
+    border:2px solid rgba(8, 8, 8, 0.8) ;
+    border-radius: 5px;
+    background-color: rgba(180, 180, 180, 0.8);
+    margin: auto;
+    padding:5%;
+    
+    
+  }
+  
+  
+  select{
+    display: block;
+    border: 10px solid white;
+    border-radius: 1%;
+  }
+  
+  .label-input, label, select{
+    width: 100%;
+    margin:5px 0px 15px 0px ;
+    display: block;
+  
+  }
+  
+  
+  label input{
+    display: unset;
+    vertical-align: center;
+    padding: 10px;
+    
+  }
+  
+  input, select{
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px
+  }
+  input[type="checkbox"],input[type="radio"]{
+   
+    height: 20px;
+    width: 20px;
+  }
+  input[type="submit"]{
+    display: block ;
+    width: 80%;
+    margin: 10px auto;
+    background-color: green;
+    border: none;
+    font-size: 1.1em;
+  
+  }
+  
