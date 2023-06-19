@@ -1,5 +1,6 @@
 body{
     background-image: url("./images/profile-Picture.jpg");
+    background-size: cover;
     color: black;
     font-family:  tahoma, sans-serif;
     font-size: 1.3em;
